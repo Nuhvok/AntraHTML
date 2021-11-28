@@ -1,0 +1,84 @@
+body{
+   font-family: arial;
+   
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: 10%;
+   margin-left: 10%;
+   background-color: Gray;
+   height: 100%;
+}
+
+div[name="MainBody"]{
+   background-color: White;
+   height: 800px;
+}
+img[name="HeaderImage"]{
+   width: 100%;
+   height: 200px;
+}
+
+ul[name="HeaderList"]{
+      
+   margin-top: 0px;
+   margin-bottom: 0px;
+   list-style-type: none;
+   border: 1px solid black;
+   height: 40px;
+   background-color: DarkGray;
+   padding-inline-start: 0px;
+}
+
+.HeaderListItem{
+   float: left;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-right: 10px;
+   margin-left: 10px;
+   border: 1px solid black;
+   background-color: white;
+}
+
+.HeaderListItem a{
+   text-decoration: none;
+   font-size: 30px;
+   color: LightGray;
+}
+
+.MainCol{
+   height: 530px;
+}
+.MainCol div{
+   float: left;
+}
+
+.LeftCol{
+   width: 50%;
+   margin-right: 2.3%;
+   margin-left: 5%;
+}
+
+.RightCol{
+   width: 35%;
+   margin-right: 5%;
+   margin-left: 2.3%;
+}
+
+.MainColText{
+   border: 1px solid LightGray;
+   border-radius: 25px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.MainColText p{
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.MainBodyFooter{
+   background-color: DarkGray;
+   color: White;
+}

@@ -1,0 +1,23 @@
+div[name="AntraFooter"]{
+   background-color: DarkGray;
+   border: 1px solid black;
+   width: 80%;
+   margin-left:10%;
+   margin-right:10%;
+}
+
+div{
+   color:Black;
+   float: left;
+   width: 20%;
+   margin-left:2.5%;
+   margin-right:2.5%;
+}
+
+a {
+   color:Black;
+   text-decoration: none;
+}
+
+.fb-like{
+   float: right;

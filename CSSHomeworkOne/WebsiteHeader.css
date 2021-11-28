@@ -1,0 +1,35 @@
+table[name="AntraHeader"] {
+   border: 1px solid black;
+}
+
+ul{
+   list-style-type: none;
+}
+
+li{
+   color:LightGray;
+   float: left;
+   margin: 10px;
+}
+
+a {
+   color:LightGray;
+   text-decoration: none;
+   text-align: center;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: white;
+   border-style: solid;
+   border-width: 2px;
+   padding-inline-start: 0px;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content-item{
+   float: initial;
+   margin: 0px;
+}
